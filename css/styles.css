@@ -1,0 +1,425 @@
+.navbar .navbar-inverse {
+	border-radius: 0px;
+	color: #fff;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero_1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.img-circle {
+	margin-top: 2%;
+}
+
+.podcast-title{
+	color: #fff;
+	font-family: Abel;
+}
+
+.listen-time{
+	color: #fff;
+	font-family: Abel;
+}
+
+.description{
+	color: #fff;
+	font-family: Abel;
+}
+
+.episodes {
+	color: #fff;
+	font-family: Abel;
+	text-align: left;
+	margin-top: 4%;
+}
+
+.episode {
+	color: #fff;
+	font-family: Abel;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #00ccff;
+	border-width: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.playlist {
+	color: #fff;
+	font-family: Abel;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #778899;
+	border-width: 0px;
+}
+
+.heading-1{
+	color: #000;
+	font-family: Abel;
+}
+
+.heading-2{
+	color: #000;
+	font-family: Abel;
+}
+
+
+
+.plan{
+	background-color: #fff;
+	border-color: #fff;
+	border-width: 1px;
+	border-radius: 2px;
+	margin-left: 14%;
+	padding-right: 7%;
+	padding-left: 7%;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.title {
+	padding-top: 2%;
+	font-family: Abel;
+	font-size: 28px;
+	text-align: center;
+	color: #000;
+}
+
+.listen{
+	padding-top: 2%;
+	padding-bottom: 7%;
+	font-family: Abel;
+	font-size: 28px;
+	text-align: center;
+	color: #00ccff;
+}
+
+.facebook {
+	color: #fff;
+	font-family: Abel;
+	font-size: 18px;
+	border-width: 0px;
+	padding: 1.5%;
+	width: 30vw;
+	background-color: #3b5998;
+}
+
+.email {
+	color: #000;
+	font-family: Abel;
+	font-size: 18px;
+	border-width: 0px;
+	padding: 1.5%;
+	width: 30vw;
+	background-color: #fff;
+	border-width: 0px;
+}
+
+.Email {
+	color: #000;
+	font-family: Abel;
+	font-size: 18px;
+	border-width: 1px;
+	border-color: #000;
+	padding: 1.5%;
+	width: 30vw;
+	background-color: #fff;
+}
+
+.Password {
+	color: #000;
+	font-family: Abel;
+	font-size: 18px;
+	border-width: 1px;
+	border-color: #000;
+	padding: 1.5%;
+	width: 30vw;
+	background-color: #fff;
+}
+
+.remember{
+	color: #000;
+	font-family: Abel;
+	font-size: 18px;
+}
+
+.password{
+	text-align: right;
+	font-family: Abel;
+	font-size: 18px;
+	color: #00ccff;
+}
+
+.Login{
+	color: #fff;
+	font-family: Abel;
+	font-size: 18px;
+	border-width: 0px;
+	padding: 1.5%;
+	width: 30vw;
+	background-color: #00ccff;
+
+}
+
+.Forgot_Password{
+	color: #00ccff;
+	font-family: Abel;
+	font-size: 18px;
+	margin-left: 27%;
+
+}
+
+.password{
+	margin-left: 33%;
+}
+
+.account {
+	color: #000;
+	font-family: Abel;
+	font-size: 18px;
+}
+
+.signup {
+	margin-left: 33%;
+}
+
+ .slider {
+      width: 100%;
+      height: 10%;
+  }
+
+form {
+	margin-top: 20%;
+}
+
+.or{
+    margin-left: 32%;
+}
+
+.bgform {
+	padding-top: 6vw;
+    padding-left: 4vw;
+    padding-bottom: 4vw;
+}
+
+.modal {
+  width: 40vw;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  width: 20vw;	
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+
+@media screen and (max-width: 600px) {
+  .email {
+  	width: 100%;
+  }
+
+  .Email {
+  	width: 100%;
+  }
+
+  .facebook {
+  	width: 100%;
+  }
+
+  .or {
+  	text-align: center;
+  }
+
+  .Password {
+  	width: 100%;
+  }
+
+  .Login  {
+  	width: 100%;
+  }
+
+  .password {
+  	margin-left: 14%;
+  }
+
+  .signup {
+  	margin-left: 14%;
+  }
+
+  .podcast-title {
+  	 font-size: 8vw;
+  }
+ 
+  .listen-time{
+  	font-size: 5vw;
+  }
+
+  .description{
+  	margin-right: 7vw;
+  	font-size: 5vw;
+  }
+
+  .episode {
+  	margin-left: 16vw;
+  }
+
+  .playlist {
+  	margin-left: 16vw;
+    margin-top: 2vw;
+  }
+
+  .bgform {
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    margin-left: -3vw;
+    margin-right: -3vw;
+}
+}
+
+.card{border: none}
+
+
+@media (min-width: 768px) {
+    /* show 4 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+        text-align: center;
+  }
+  
+  }
+
+
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+ .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+}
+
+
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+}
+
+/* left or forward direction */
+.active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+
+}
+
+/* farthest right hidden item must be absolue position for animations */
+
+.carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+
+}
+
+/* right or prev direction */
+
+.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        
+}
